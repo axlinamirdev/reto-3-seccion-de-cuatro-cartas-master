@@ -33,22 +33,26 @@ body{
 }
 
 .container .subtitle{
-	font-size: 2rem;
+	text-align: left;
+	font-size: 2.1rem;
     font-weight: 200;
     color: var(--grayish-blue);
 }
 
 .container .title{
-	font-size: 2.2rem;
+	text-align: left;
+	font-size: 2.3rem;
     font-weight: 600;
     color: var(--very-dark-blue);
 }
 
 .container .parrafo{
 	text-align: center;
-    margin: 15px 5px 60px;
+    margin: 15px 5px 50px;
     font-weight: 400;
     color: var(--grayish-blue);
+    font-size: 1.3rem;
+    width: 100%;
 }
 
 .container .cuadro{
