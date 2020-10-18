@@ -33,13 +33,13 @@ body{
 }
 
 .container .subtitle{
-	font-size: 2.2rem;
+	font-size: 2rem;
     font-weight: 200;
     color: var(--grayish-blue);
 }
 
 .container .title{
-	font-size: 2.5rem;
+	font-size: 2.2rem;
     font-weight: 600;
     color: var(--very-dark-blue);
 }
@@ -54,6 +54,7 @@ body{
 .container .cuadro{
     padding: 20px;
     box-shadow: 0px 10px 23px -9px rgb(178 192 199 / 75%);
+    margin-bottom: 50px;
 }
 
 .container .cuadro figure{
@@ -81,5 +82,4 @@ body{
 
 .c4{
 	border-top: 3px solid var(--color-blue);
-	margin-bottom: 100px;
 }
