@@ -1,0 +1,85 @@
+:root{
+	--color-cyan:hsl(180, 62%, 55%);
+	--color-red:hsl(0, 78%, 62%);
+	--color-orange:hsl(34, 97%, 64%);
+	--color-blue:hsl(212, 86%, 64%);
+	--very-dark-blue: hsl(234, 12%, 34%);
+	--grayish-blue: hsl(229, 6%, 66%);
+	--very-light-gray: hsl(0, 0%, 98%);
+}
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5rem;
+}
+
+.container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 35px 0;
+}
+
+.container .subtitle{
+	font-size: 2.4rem;
+    font-weight: 200;
+    color: var(--grayish-blue);
+}
+
+.container .title{
+	font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--very-dark-blue);
+}
+
+.container .parrafo{
+	text-align: center;
+    margin: 15px 5px 60px;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+.container .cuadro{
+    padding: 20px;
+    box-shadow: 0px 10px 23px -9px rgb(178 192 199 / 75%);
+}
+
+.container .cuadro figure{
+	text-align: right;
+    padding: 10px;
+}
+
+.container .cuadro h1{
+	color: var(--very-dark-blue);
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.c1{
+	border-top: 3px solid var(--color-cyan);
+}
+
+.c2{
+	border-top: 3px solid var(--color-red);
+}
+
+.c3{
+	border-top: 3px solid var(--color-orange);
+}
+
+.c4{
+	border-top: 3px solid var(--color-blue);
+	margin-bottom: 100px;
+}
